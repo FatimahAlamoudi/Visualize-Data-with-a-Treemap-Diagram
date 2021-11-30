@@ -1,0 +1,32 @@
+html, body{
+    min-height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    background-color: whitesmoke;
+}
+
+#canvas{
+    min-width: 1000px;
+    min-height: 600px;
+}
+
+#legend{
+    background-color: rgb(87, 155, 148);
+    color: rgb(56, 58, 74);
+    font-size: 18px;
+    text-align: center;
+    min-height: 280px;
+    max-width: 180px;
+}
+
+#tooltip{
+    visibility: hidden;
+}
